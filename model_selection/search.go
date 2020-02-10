@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/pa-m/sklearn/base"
+	"github.com/RobinRCM/sklearn/base"
 	"golang.org/x/exp/rand"
 	"gonum.org/v1/gonum/floats"
 	"gonum.org/v1/gonum/mat"

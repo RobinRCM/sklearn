@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/pa-m/sklearn/base"
+	"github.com/RobinRCM/sklearn/base"
 
 	"gonum.org/v1/gonum/mat"
 )

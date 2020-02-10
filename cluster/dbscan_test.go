@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pa-m/sklearn/datasets"
-	"github.com/pa-m/sklearn/preprocessing"
+	"github.com/RobinRCM/sklearn/datasets"
+	"github.com/RobinRCM/sklearn/preprocessing"
 	"gonum.org/v1/gonum/mat"
 	"gonum.org/v1/plot"
 	"gonum.org/v1/plot/plotter"

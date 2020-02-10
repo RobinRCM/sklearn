@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pa-m/sklearn/base"
+	"github.com/RobinRCM/sklearn/base"
 
 	"golang.org/x/exp/rand"
 

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/pa-m/sklearn/base"
-	"github.com/pa-m/sklearn/metrics"
-	"github.com/pa-m/sklearn/preprocessing"
+	"github.com/RobinRCM/sklearn/base"
+	"github.com/RobinRCM/sklearn/metrics"
+	"github.com/RobinRCM/sklearn/preprocessing"
 
 	//"gonum.org/v1/gonum/diff/fd"
 	"math"

@@ -6,11 +6,11 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/pa-m/sklearn/base"
-	"github.com/pa-m/sklearn/datasets"
-	"github.com/pa-m/sklearn/metrics"
-	neuralnetwork "github.com/pa-m/sklearn/neural_network"
-	"github.com/pa-m/sklearn/preprocessing"
+	"github.com/RobinRCM/sklearn/base"
+	"github.com/RobinRCM/sklearn/datasets"
+	"github.com/RobinRCM/sklearn/metrics"
+	neuralnetwork "github.com/RobinRCM/sklearn/neural_network"
+	"github.com/RobinRCM/sklearn/preprocessing"
 	"golang.org/x/exp/rand"
 	"gonum.org/v1/gonum/mat"
 )

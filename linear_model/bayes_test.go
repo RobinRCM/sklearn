@@ -2,7 +2,7 @@ package linearmodel
 
 import (
 	"fmt"
-	"github.com/pa-m/sklearn/metrics"
+	"github.com/RobinRCM/sklearn/metrics"
 	"golang.org/x/exp/rand"
 	"gonum.org/v1/gonum/mat"
 	"testing"

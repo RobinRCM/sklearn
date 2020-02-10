@@ -6,8 +6,8 @@ import (
 	// "log"
 	"strings"
 
-	"github.com/pa-m/sklearn/base"
-	"github.com/pa-m/sklearn/preprocessing"
+	"github.com/RobinRCM/sklearn/base"
+	"github.com/RobinRCM/sklearn/preprocessing"
 
 	"gonum.org/v1/gonum/mat"
 )

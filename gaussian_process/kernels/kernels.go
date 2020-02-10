@@ -2,7 +2,7 @@ package kernels
 
 import (
 	"fmt"
-	"github.com/pa-m/sklearn/base"
+	"github.com/RobinRCM/sklearn/base"
 	"math"
 
 	"gonum.org/v1/gonum/floats"

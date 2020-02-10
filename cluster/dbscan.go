@@ -3,8 +3,8 @@ package cluster
 import (
 	"runtime"
 
-	"github.com/pa-m/sklearn/base"
-	"github.com/pa-m/sklearn/neighbors"
+	"github.com/RobinRCM/sklearn/base"
+	"github.com/RobinRCM/sklearn/neighbors"
 	"gonum.org/v1/gonum/mat"
 )
 

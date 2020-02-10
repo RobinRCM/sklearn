@@ -11,7 +11,7 @@ import (
 
 func TestLoadOctaveBin(t *testing.T) {
 	// v https://lists.gnu.org/archive/html/help-octave/2004-11/msg00068.html
-	filename := os.Getenv("GOPATH") + "/src/github.com/pa-m/sklearn/datasets/data/ex4data1.dat.gz"
+	filename := os.Getenv("GOPATH") + "/src/github.com/RobinRCM/sklearn/datasets/data/ex4data1.dat.gz"
 	mats := LoadOctaveBin(filename)
 	if _, ok := mats["y"]; !ok {
 		t.Errorf("no y")

@@ -3,7 +3,7 @@ package metrics
 import (
 	"fmt"
 
-	"github.com/pa-m/sklearn/preprocessing"
+	"github.com/RobinRCM/sklearn/preprocessing"
 	"gonum.org/v1/gonum/mat"
 	"gonum.org/v1/gonum/stat"
 )

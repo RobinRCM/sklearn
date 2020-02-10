@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pa-m/sklearn/metrics"
+	"github.com/RobinRCM/sklearn/metrics"
 	"gonum.org/v1/gonum/mat"
 )
 

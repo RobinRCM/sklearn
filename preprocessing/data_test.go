@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"github.com/pa-m/sklearn/base"
+	"github.com/RobinRCM/sklearn/base"
 
 	"gonum.org/v1/gonum/floats"
 	"gonum.org/v1/gonum/mat"
