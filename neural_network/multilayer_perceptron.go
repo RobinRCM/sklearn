@@ -61,6 +61,18 @@ func (mlp *MLPRegressor) Predict(X mat.Matrix, Ymutable mat.Mutable) *mat.Dense 
 	return base.FromDense(Ymutable, Y)
 }
 
+// PredictProbas return the probability estimate
+func (mlp *MLPRegressor) PredictProbas(X mat.Matrix, Ymutable mat.Mutable) *mat.Dense {
+	Y := base.ToDense(Ymutable)
+	nSamples, _ := X.Dims()
+	if Y.IsEmpty() {
+		*Y = *mat.NewDense(nSamples, mlp.GetNOutputs(), nil)
+	}
+
+	mlp.BaseMultilayerPerceptron64.predictProbas(base.ToDense(X).RawMatrix(), Y.RawMatrix())
+	return base.FromDense(Ymutable, Y)
+}
+
 // Score for MLPRegressor returns R2Score
 func (mlp *MLPRegressor) Score(X, Y mat.Matrix) float64 {
 	nSamples, _ := X.Dims()
